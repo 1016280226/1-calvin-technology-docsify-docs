@@ -73,7 +73,7 @@
    ```bash
    docker container exec -it CONTAINER_ID /bin/bash 
    ```
-   
+
 ### 10. 卸载老版本docker
 
   ```bash
@@ -99,9 +99,8 @@
     docker system prune
     ```
     > *注意: -a命令清理得更加彻底，可以将没有容器使用Docker镜像都删掉。注意，这两个命令会把你暂时关闭的容器，以及暂时没有用到的Docker镜像都删掉了…所以使用之前一定要想清楚.*
-    
+
 ### 13. 容器导出
     ```bash
     docker export CONTAINER_NAME > /存储路径/文件名称.tar
     ```
-  
