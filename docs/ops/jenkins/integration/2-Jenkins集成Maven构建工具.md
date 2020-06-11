@@ -1,15 +1,10 @@
 # 笔记二 Jenkins 集成 Maven 构建工具
 
-
-
 ## 1. 为什么集成 Maven 构建工具 ？
 
 <img src="../../../../statics/images/jenkins/integration/jenkins_integration_maven.png" style="zoom:100%;" />
 
-****
-
 在大多数 **JAVA** 开发项目中，通常使用的项目依赖管理工具 **`Maven`**, 为了让我们 JAVA 项目开发和部署更加**方便、高效、快速迭代升级** ，所以 **Jenkins** 提供了 **Maven** 插件进行集成有关联的 **Maven** 项目。
-
 
 
 ## 2. Maven 下载安装
@@ -62,18 +57,15 @@ Maven home: /usr/local/apache-maven-3.6.3
 -----------------------------------------------------------------------------------------------
 ```
 
-
-
 ## 3. Jenkins 配置 Maven 构建工具
 
 1. 在<img src="../../../../statics/images/jenkins/integration/jenkins_system_button.png" style="zoom:100%;" />“**系统管理**"， 点击<img src="../../../../statics/images/jenkins/integration/jenkins_system_global_config_button.png" style="zoom:80%;" />“**全局工具配置**”。
+
 2. 配置 **Maven** 构建工具
    - Name : 定义 **Maven** 在 **Jenkins** 名称。
    - MAVEN_HOME: **Maven** 安装地址。
 
 <img src="../../../../statics/images/jenkins/integration/jenkins_global_mvn_config.png" style="zoom:100%;" />
-
-
 
 3. 点击“**保存**”或者“**应用**”。
 
@@ -83,8 +75,9 @@ Maven home: /usr/local/apache-maven-3.6.3
 >2. 使用 **K8S** 安装 **Jenkins**,  在容器中 **MAVEN_HOME** 安装目录在 <font color="green">/var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/apache-maven-3.6.3/</font>
 
 
-
 ## 4. 使用 Pipeline 实现 Maven 构建 
+
+
 
 - 在 **GitLab** 中 **jenkins-share-library** 项目，创建一个 **m2.Jenkinsfile** 文件, 添加以下代码：
 
@@ -112,8 +105,6 @@ pipeline {
 }
 ```
 
-
-
 - 在 **Jenkins** 创建一个流水线项目为 **pipeline-maven-show-05**
   - 添加描述:  **Maven** 集成流水线
   - 参数化构建过程（**选项参数**）， 添加以下 **Maven** 命令 :
@@ -124,8 +115,6 @@ pipeline {
 
 <img src="../../../../statics/images/jenkins/integration/jenkins_env_paramter_process.png" style="zoom:200%;" />
 
-
-
 - 流水线配置
   - 定义：**Pipeline script from SCM**
   - SCM ：**Git**
@@ -135,11 +124,7 @@ pipeline {
 
 <img src="../../../../statics/images/jenkins/integration/jenkins_pipeline_project_config.png" style="zoom:200%;" />
 
-
-
 - “**保存**”或者“**应用**”。
-
-
 
 ## 5. Maven 集成 Pipeline 流水线演示效果
 

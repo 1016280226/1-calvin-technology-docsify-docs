@@ -45,6 +45,7 @@
   * 一、基础
     * 操作系统
       * **Linux**
+        * [**1. LVM 磁盘扩容**](./docs/ops/linux/1-LVM磁盘扩容.md) 
       * **Window**
   * 二、进阶
     
@@ -55,21 +56,23 @@
         * [**1. Docker 入门**](./docs/ops/docker/1-Docker入门.md) 
         * [**2. Docker 安装**](./docs/ops/docker/2-Docker安装.md) 
         * [**3. Docker 常用命令**](./docs/ops/docker/3-Docker常用命令.md) 
-      
     * 自动化技术
-      
+      * **Jenkins 基础入门**
+        * [**1-Jenkins 简介与安装.md**](./docs/ops/jenkins/introduce/1-Jenksin简介与安装.md)
+        * [**2-Jenkins添加 Agent 节点.md**](./docs/ops/jenkins/introduce/2-Jenkins添加Agent节点.md)
+        * [**3-Jenkins 用户与权限管理.md**](./docs/ops/jenkins/introduce/3-Jenkins用户与权限管理.md)
       * **Jenkins 流水线核心篇**
         * [**1. Pipline 流水线**](./docs/ops/jenkins/pipeline/1-Pipeline流水线.md)
         * [**2. Pipline 语法**](./docs/ops/jenkins/pipeline/2-Pipeline语法.md)
         * [**3. Pipline 之 Jenkins 共享库**](./docs/ops/jenkins/pipeline/3-Pipeline之Jenkins共享库.md)
         * [**4. Pipline 常用的DSL方法**](./docs/ops/jenkins/pipeline/4-Pipeline常用的DSL方法.md)
-      * **Jenkins 用户集成篇**
+        * [**5. Pipeline 之构建工具封装为共享库**](./docs/ops/jenkins/pipeline/5-Pipeline之构建工具封装为共享库.md)
+      * **Jenkins 集成篇**
          * [**1. Jenkins 集成 GitLab 实现OSS 登录**](./docs/ops/jenkins/integration/1-Jenkins集成GitLab实现SSO登录.md)
          * [**2. Jenkins 集成 Maven 构建工具**](./docs/ops/jenkins/integration/2-Jenkins集成Maven构建工具.md)
          * [**3. Jenkins 集成 Ant 构建工具**](./docs/ops/jenkins/integration/3-Jenkins集成Ant构建工具.md)
          * [**4. Jenkins 集成 Gradle 构建工具**](./docs/ops/jenkins/integration/4-Jenkins集成Gradle构建工具.md)
          * [**5. Jenkins 集成 NodeJS 构建工具**](./docs/ops/jenkins/integration/5-Jenkins集成NodeJS构建工具.md)
-      
     
   * 四、架构
     

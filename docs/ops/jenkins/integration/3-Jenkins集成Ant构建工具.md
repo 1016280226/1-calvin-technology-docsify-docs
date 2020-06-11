@@ -1,12 +1,8 @@
-# 笔记二 Jenkins 集成 Ant 构建工具
-
-
+# 笔记三 Jenkins 集成 Ant 构建工具
 
 ## 1. 为什么集成 Ant 构建工具 ？
 
 <img src="../../../../statics/images/jenkins/integration/jenkins_integration_ant.png" style="zoom:100%;" />
-
-****
 
 由于有些项目使用到 Ant 所以这里实现集成。
 

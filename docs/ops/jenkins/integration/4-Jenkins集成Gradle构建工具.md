@@ -1,12 +1,8 @@
-# 笔记二 Jenkins 集成 Gradle 构建工具
-
-
+# 笔记四 Jenkins 集成 Gradle 构建工具
 
 ## 1. 为什么集成 Gradle 构建工具 ？
 
 <img src="../../../../statics/images/jenkins/integration/jenkins_integration_gradle.png" style="zoom:100%;" />
-
-****
 
 **`Gradle`**是一个基于Apache Ant和Apache Maven概念的项目自动化构建开源工具。它使用一种基于Groovy的特定领域语言(DSL)来声明项目设置，目前也增加了基于Kotlin语言的kotlin-based DSL，抛弃了基于XML的各种繁琐配置。
 
