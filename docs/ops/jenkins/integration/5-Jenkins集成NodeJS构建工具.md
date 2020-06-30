@@ -78,8 +78,13 @@ $ npm -v
 
 ## 3. Jenkins 配置 NodeJS 构建工具
 
-1. 在<img src="../../../../statics/images/jenkins/integration/jenkins_system_button.png" style="zoom:100%;" />“**系统管理**"， 点击<img src="../../../../statics/images/jenkins/integration/jenkins_system_global_config_button.png" style="zoom:80%;" />“**全局工具配置**”。
-2. 配置 **NodeJS** 构建工具
+1. 在<img src="../../../../statics/images/jenkins/integration/jenkins_system_button.png" style="zoom:100%;" />“**系统管理**"， 点击“**插件管理**”， 点击“**可选插件**”，下载 **`NodeJS 插件`**。
+
+   <img src="../../../../statics/images/jenkins/jenkins_nodejs_pluging.png" style="zoom:100%;" />
+
+2. 在<img src="../../../../statics/images/jenkins/integration/jenkins_system_button.png" style="zoom:100%;" />“**系统管理**"， 点击<img src="../../../../statics/images/jenkins/integration/jenkins_system_global_config_button.png" style="zoom:80%;" />“**全局工具配置**”。
+
+3. 配置 **NodeJS** 构建工具
    - Name : 定义 **NodeJS** 在 **Jenkins** 名称。
    - NODEJS_HOME: **NodeJS** 安装地址。
 

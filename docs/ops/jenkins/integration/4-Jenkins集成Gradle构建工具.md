@@ -56,19 +56,30 @@ $ source /etc/profile
 ```bash
 $ gradle -v
 
-------------------------------输出以下内容，代码 Gradle 安装成功-----------------------------------
+------------------------------输出以下内容，代码 Gradle 安装成功 ----------------------------------
+
+Welcome to Gradle 5.3.1!
+
+Here are the highlights of this release:
+ - Feature variants AKA "optional dependencies"
+ - Type-safe accessors in Kotlin precompiled script plugins
+ - Gradle Module Metadata 1.0
+
+For more details see https://docs.gradle.org/5.3.1/release-notes.html
+
 ------------------------------------------------------------
-Gradle 5.3
+Gradle 5.3.1
 ------------------------------------------------------------
 
-Build time:   2019-03-20 11:03:29 UTC
-Revision:     f5c64796748a98efdbf6f99f44b6afe08492c2a0
+Build time:   2019-03-28 09:09:23 UTC
+Revision:     f2fae6ba563cfb772c8bc35d31e43c59a5b620c3
 
 Kotlin:       1.3.21
 Groovy:       2.5.4
 Ant:          Apache Ant(TM) version 1.9.13 compiled on July 10 2018
-JVM:          1.8.0_131 (Oracle Corporation 25.131-b11)
-OS:           Windows 10 10.0 amd64
+JVM:          1.8.0_252 (Oracle Corporation 25.252-b09)
+OS:           Linux 3.10.0-1062.el7.x86_64 amd64
+
 -----------------------------------------------------------------------------------------------
 ```
 
@@ -78,8 +89,8 @@ OS:           Windows 10 10.0 amd64
 
 1. 在<img src="../../../../statics/images/jenkins/integration/jenkins_system_button.png" style="zoom:100%;" />“**系统管理**"， 点击<img src="../../../../statics/images/jenkins/integration/jenkins_system_global_config_button.png" style="zoom:80%;" />“**全局工具配置**”。
 2. 配置 **Gradle** 构建工具
-   - Name : 定义 **Gradle** 在 **Jenkins** 名称。
-   - GRADLE_HOME: **Gradle** 安装地址。
+   - Name : **`Grade`**
+   - GRADLE_HOME: **`/usr/local/gradle-5.3.1`**
 
 <img src="../../../../statics/images/jenkins/integration/jenkins_global_gradle_config.png" style="zoom:100%;" />
 
