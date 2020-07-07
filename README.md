@@ -79,7 +79,11 @@
 
 - #### [容器引擎技术](./docs/ops/docker/1-Docker入门.md)
 
+- #### [代码仓库](./docs/ops/gitlab/1-GitLab简介.md)
+
 - #### [自动化技术](./docs/ops/jenkins/pipeline/1-Pipeline流水线.md)
+
+  
 
 ### 四、架构
 

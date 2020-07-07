@@ -1,8 +1,8 @@
-# 笔记一 Docker 入门
+# ./docs/ops/gitlab/1-GitLab简介.md笔记一 Docker 入门
 
 ## 1. 什么是容器 ?
 
-![](./../../../statics/images/docker/container-what-is-container.png)
+![image](./../../../statics/images/docker/container-what-is-container.png)
 
 ### 专业术语：将软件打包到标准化单元中，以进行开发，运输和部署 。
 

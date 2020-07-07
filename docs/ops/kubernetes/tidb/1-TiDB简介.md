@@ -120,6 +120,12 @@ TiDB 是为云而设计的数据库，同 Kubernetes 深度耦合，支持公有
 
 <img src="../../../../statics/images/k8s/tidb/tidb-architecture.png" alt="architecture" style="zoom:200%;" />
 
+<img src="../../../../statics/images/k8s/tidb/tidb-architecture-01.png" alt="architecture" style="zoom:200%;" />
+
+<img src="../../../../statics/images/k8s/tidb/tidb-architecture-02.png" alt="architecture" style="zoom:200%;" />
+
+
+
 ### TiDB Server
 
 > - SQL 层，对外暴露 MySQL 协议的连接 endpoint，负责接受客户端的连接，执行 SQL 解析和优化，最终生成分布式执行计划。

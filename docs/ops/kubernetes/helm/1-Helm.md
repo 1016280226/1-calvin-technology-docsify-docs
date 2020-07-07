@@ -286,7 +286,11 @@ subjects:
 - kind: ServiceAccount
   name: tiller
   namespace: kube-system
-kubectl apply -f tiller-adminuser.yaml
+```
+
+```bash
+# 修改配置文件后，创建tiller-adminuser 权限
+$ kubectl apply -f tiller-adminuser.yaml
 ```
 
 - 为 Tiller 设置帐号
@@ -332,6 +336,6 @@ Server: &version.Version{SemVer:"v2.16.7", GitCommit:"5f2584fd3d35552c4af26036f0
 
 如果你需要在 Kubernetes 中卸载已部署的 Tiller，可使用以下命令完成卸载
 
-```
-helm reset
+```bash
+$ helm reset
 ```
