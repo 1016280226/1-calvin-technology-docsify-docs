@@ -83,7 +83,6 @@
 
 - #### [自动化技术](./docs/ops/jenkins/pipeline/1-Pipeline流水线.md)
 
-  
 
 ### 四、架构
 

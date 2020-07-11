@@ -73,7 +73,7 @@
   $ mkdir -p /home/jenkins_node_01
   
   # 给该目录授权
-  $ chmod +777 /home/jenkins_node_01
+  $ chmod 777 /home/jenkins_node_01
   
   # 创建一个存放安装包目录
   $ mkdir -p /home/install_package

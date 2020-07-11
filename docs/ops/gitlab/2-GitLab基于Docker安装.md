@@ -38,7 +38,10 @@ $ mkdir config data logs
 version: '3.1'
 services:
     web:
-      image: 'twang2218/gitlab-ce-zh:11.1.4'
+      # 中文版触发钩子有问题
+      # image: 'twang2218/gitlab-ce-zh:11.1.4'
+      # 修改为官方版本
+      image: 'gitlab/gitlab-ce:latest'
       restart: always
       hostname: '192.168.2.163'
       container_name: 'gitlab'
@@ -74,8 +77,8 @@ services:
 
 > 注意：
 >
-> - 该镜像网站：https://hub.docker.com/r/twang2218/gitlab-ce-zh
-> - gitlab原官方镜像：**`gitlab/gitlab-ce`**, 但是是英文版，上面配置并不适合，可以查看官方安装方式地址：https://hub.docker.com/r/gitlab/gitlab-ce
+> - GitLab中文版镜像网站：https://hub.docker.com/r/twang2218/gitlab-ce-zh
+> - GitLab原官方镜像：**`gitlab/gitlab-ce`**, 但是是英文版，上面配置并不适合，可以查看官方安装方式地址：https://hub.docker.com/r/gitlab/gitlab-ce
 
 #### 2.4 修改服务器中远程连接的默认端口号22，因为22需要被 gitlab 用到。
 
