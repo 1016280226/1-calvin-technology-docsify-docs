@@ -1,14 +1,15 @@
 # 笔记二 GitLab 基于 Docker 安装
 
-## 一、GitLab中文版 安装 
+## 一、GitLab  安装
 
 ### 1. 前置条件
 
-- 安装 Docker 
-- 安装 Docker-Compose
-- 硬件配置要求
-  - 内存至少4GB
-  - CPU至少2核 
+- #### 安装 Docker 
+- #### 安装 Docker-Compose
+- #### 硬件配置要求
+  
+  - ##### 内存至少4GB
+  - ##### CPU至少2核 
 
 ### 2. 安装 Gitlab
 
@@ -123,18 +124,18 @@ $ docker-compose up -d && docker logs -f gitlab
 
 <img src="./../../../statics/images/gitlab/gitlab_index.png" style="zoom:100%;" />
 
-- 创建用户
+- ##### 创建用户
 
   <img src="./../../../statics/images/gitlab/gitlab_create_users.png" style="zoom:100%;" />
 
--  创建群组
+-  ##### 创建群组
 
   <img src="./../../../statics/images/gitlab/gitlab_create_group.png" style="zoom:100%;" />
 
-- 给群组添加人员，分配权限
+- ##### 给群组添加人员，分配权限
 
   <img src="./../../../statics/images/gitlab/gitlab_group_author.png" style="zoom:100%;" />
 
-- 创建项目
+- ##### 创建项目
 
   <img src="./../../../statics/images/gitlab/gitlab_create_projects.png" style="zoom:100%;" />

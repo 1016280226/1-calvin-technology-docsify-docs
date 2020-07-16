@@ -85,7 +85,7 @@
          * [**4. Jenkins 集成 Gradle 构建工具**](./docs/ops/jenkins/integration/4-Jenkins集成Gradle构建工具.md)
          * [**5. Jenkins 集成 NodeJS 构建工具**](./docs/ops/jenkins/integration/5-Jenkins集成NodeJS构建工具.md)
          * [**6. Jenkins 集成 Ansible 发布工具**](./docs/ops/jenkins/integration/6-Jenkins集成Ansible发布工具.md)
-         * [**7. Jenkins 集成 SonarScanner代码扫描工具**](./docs/ops/jenkins/integration/\7-Jenkins集成SonarScanner代码扫描工具.md)
+         * [**7. Jenkins 集成 SonarScanner代码扫描工具**](./docs/ops/jenkins/integration/7-Jenkins集成SonarScanner代码扫描工具.md)
   
 * 四、架构
   

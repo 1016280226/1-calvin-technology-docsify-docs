@@ -47,8 +47,6 @@ Docker Engine是业界事实上的容器运行时，可在各种Linux（[CentOS]
 
 <img src="./../../../statics/images/docker/Docker-Website-2018-Diagrams-071918-V5_a-Docker-Engine-page-first-panel.png" alt="image" style="zoom:50%;" />
 
-## 
-
 ### 节省开支
 
 > 虚拟化容器体积小，占用率低。
