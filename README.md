@@ -81,8 +81,9 @@
 
 - #### [代码仓库](./docs/ops/gitlab/1-GitLab简介.md)
 
-- #### [自动化技术](./docs/ops/jenkins/pipeline/1-Pipeline流水线.md)
+- #### [代码扫描](./docs/ops/sonarqube/1-SonarQube简介.md)
 
+- #### [CI/CD](./docs/ops/jenkins/pipeline/1-Pipeline流水线.md)
 
 ### 四、架构
 
@@ -95,6 +96,7 @@
 
 ### 一、基础
 ### 二、进阶
+
 ### 三、高级
 ### 四、架构
 ### 五、项目管理工具

@@ -63,7 +63,10 @@
       - [**1. GitLab 简介**](./docs/ops/gitlab/1-GitLab简介.md) 
       - [**2. GitLab 基于Docker安装**](./docs/ops/gitlab/2-GitLab基于Docker安装.md) 
       - [**3. GitLab 配置SSH访问协议**](./docs/ops/gitlab/3-GitLab配置SSH访问协议.md) 
-    * 自动化技术
+    * 代码扫描
+      - [**1. SonarQuber 简介**](./docs/ops/sonarqube/1-SonarQube简介.md) 
+      - [**2. SonarQuber 安装和使用**](./docs/ops/sonarqube/2-SonarQube安装和使用.md) 
+    * CI/CD
       * **Jenkins 基础入门**
         * [**1. Jenkins 简介与安装.md**](./docs/ops/jenkins/introduce/1-Jenksin简介与安装.md)
         * [**2. Jenkins 添加 Agent 节点.md**](./docs/ops/jenkins/introduce/2-Jenkins添加Agent节点.md)
@@ -82,6 +85,7 @@
          * [**4. Jenkins 集成 Gradle 构建工具**](./docs/ops/jenkins/integration/4-Jenkins集成Gradle构建工具.md)
          * [**5. Jenkins 集成 NodeJS 构建工具**](./docs/ops/jenkins/integration/5-Jenkins集成NodeJS构建工具.md)
          * [**6. Jenkins 集成 Ansible 发布工具**](./docs/ops/jenkins/integration/6-Jenkins集成Ansible发布工具.md)
+         * [**7. Jenkins 集成 SonarScanner代码扫描工具**](./docs/ops/jenkins/integration/\7-Jenkins集成SonarScanner代码扫描工具.md)
   
 * 四、架构
   
