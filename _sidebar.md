@@ -74,6 +74,7 @@
         * [**2. Docker 安装**](./docs/ops/docker/2-Docker安装.md) 
         * [**3. Docker 常用命令**](./docs/ops/docker/3-Docker常用命令.md) 
         * [**4. Docker 其他功能**](./docs/ops/docker/4-Docker其他功能.md) 
+        * [**5. Docker 常见问题**](./docs/ops/docker/5-Docker常见问题.md) 
     * 代码仓库
       - [**1. GitLab 简介**](./docs/ops/gitlab/1-GitLab简介.md) 
       - [**2. GitLab 基于Docker安装**](./docs/ops/gitlab/2-GitLab基于Docker安装.md) 
