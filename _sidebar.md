@@ -1,6 +1,14 @@
+* 
+  
 * 1.【后端】- 修炼篇  
+
   * 一、基础
     * Java 语言
+      * Java 入门准备
+      * Java 基础教程
+      * Java 面向对象
+      * Java 高级教程
+        * [**1. 反射机制**](./docs/end/java/4_advanced/1-反射机制.md)
     * Groovy 语言
       * [**1. Groovy 简介**](./docs/end/groovy/1-Groovy简介.md) 
       * [**2. Groovy 基本数据类型**](./docs/end/groovy/2-Groovy基本数据类型.md)
@@ -12,7 +20,7 @@
       
       - [**1. 设计模式**](./docs/end/design-mode/1-设计模式.md)
       
-      * **2. 单例-模式**
+      * [**2. 单例-模式**](./docs/end/design-mode/2-单例模式.md)
       * **3. 工厂-模式**
       * **4. 代理-模式**
       * **5. 原型-模式**
@@ -37,9 +45,11 @@
     * 单体应用架构
     * SOA应用架构
     * 微服务应用架构
+      * [**架构师面试宝典**](./docs/end/micro/架构师面试宝典.md)
   * 五、项目管理工具
     * Git/SVN
     * Maven/Gradle
+
 * 2.【前端】- 修炼篇
   * 一、基础
     * HTML5
@@ -55,6 +65,7 @@
     * NodeJS
   * 四、架构
   * 五、项目管理工具
+  
 * 3.【运维】- 修炼篇
   * 一、基础
     * 操作系统
@@ -119,12 +130,15 @@
       * [**3. TiDB Cluster**](./docs/ops/kubernetes/tidb/3-TiDB-Cluster.md)
     
   * 五、项目管理工具
+  
 * 4.【DBA】 - 修炼篇
   * 一、基础
   * 二、进阶
   * 三、高级
   * 四、架构
   * 五、项目管理工具
+  
 * 5.【产品】- 修炼篇
+
 * 6.【思想编程】- 修炼篇
 
