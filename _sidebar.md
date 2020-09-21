@@ -1,8 +1,5 @@
-* 
-  
 * 1.【后端】- 修炼篇  
-
-  * 一、基础
+* 一、基础
     * Java 语言
       * Java 入门准备
       * Java 基础教程
@@ -16,23 +13,23 @@
       * [**4. Groovy 函数**](./docs/end/groovy/4-Groovy函数.md)
     * HTTP 网络知识
   * 二、进阶
-    * 设计模式
-      
-      - [**1. 设计模式**](./docs/end/design-mode/1-设计模式.md)
-      
-      * [**2. 单例-模式**](./docs/end/design-mode/2-单例模式.md)
-      * [**3. 工厂-模式**](./docs/end/design-mode/3-工厂模式.md)
-      * **4. 代理-模式**
-      * **5. 原型-模式**
-      * **6. 观察者-模式**
-      * [**7. 策略-模式**](./docs/end/design-mode/7-策略模式.md)
-      * [**8. 模板-模式**](./docs/end/design-mode/8-模板模式.md)
-      * [**9. 责任链-模式**](./docs/end/design-mode/9-责任链模式.md)
-      * **10. 装饰者-模式**
+    * [设计模式](./docs/end/design-mode/1-设计模式.md)
+      * 创建型-5种
+        * [**1. 单例-模式**](./docs/end/design-mode/2-单例模式.md)
+        * [**2. 工厂-模式**](./docs/end/design-mode/3-工厂模式.md)
+        * [**3. 构建者-模式**](./docs/end/design-mode/4-构建者模式.md)
+      * 结构型-7种
+        * [**1. 代理-模式**](./docs/end/design-mode/5-代理模式.md)
+        * [**2. 装饰者-模式**](./docs/end/design-mode/10-装饰者模式.md)
+        * [**3. 适配器-模式**](./docs/end/design-mode/12-适配器模式.md)
+      * 行为型-11种
+        * [**1. 策略-模式**](./docs/end/design-mode/7-策略模式.md)
+        * [**2. 状态模式**](./docs/end/design-mode/11-状态模式.md)
+        * [**3. 观察者-模式**](./docs/end/design-mode/6-观察者模式.md)
+        * [**4. 模板-模式**](./docs/end/design-mode/8-模板模式.md)
+        * [**5. 责任链-模式**](./docs/end/design-mode/9-责任链模式.md)
     * 数据结构 
-    
     * 性能调优 
-    
     * 算法 
   * 三、高级
     * 快速开发 - 框架 
